@@ -1,0 +1,9 @@
+body {
+  width: 700px;
+  margin: auto;
+  padding: 45px;
+}
+
+ul {
+  list-style-image: element(-);
+}
