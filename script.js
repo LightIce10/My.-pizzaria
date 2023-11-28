@@ -9,18 +9,18 @@ document.getElementById("btn").addEventListener("click", doneOrder);
 // function
 function doneOrder() {
   let a = document.getElementById("btn").value;
-  // let b = document.getElementById("size").value;
+  let b = document.getElementById("size").value;
   let c = document.getElementById("first").value;
   let d = document.getElementById("second").value;
 
   // testing
   console.log(a);
-  // console.log(b);
+  console.log(b);
   console.log(c);
   console.log(d);
 
   // process
-  let changetext = `You have ordered a pizza with:
+  let changetext = `You have ordered a ${b} pizza with:
   <ul>
    <li>${c}</li> 
    <li>${d} </li>
