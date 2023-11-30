@@ -1,12 +1,26 @@
+html {
+  background-color: orangered;
+}
+
 body {
   width: 700px;
-  margin: auto;
+  margin: 50px auto;
   padding: 45px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
+  font: yellow;
+  border: 15px solid salmon;
 }
 
 ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
+}
+
+button {
+  background-color: saddlebrown;
+  border: 5px solid black;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: bold;
 }
